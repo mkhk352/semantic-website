@@ -3,11 +3,12 @@
 import 'semantic-ui-css/semantic.min.css';
 
 import Vue from 'vue';
+import SemanticUI from 'semantic-ui-vue';
 import App from './App';
 import router from './router';
 
 Vue.config.productionTip = false;
-
+Vue.use(SemanticUI);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

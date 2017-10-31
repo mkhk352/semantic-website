@@ -11,6 +11,8 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-vue": "0.0.28",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -62,5 +64,9 @@
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
