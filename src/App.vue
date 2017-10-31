@@ -1,7 +1,10 @@
 <template>
   <div class="">
     <app-header></app-header>
+    <div class="ui center aligned raised segment" id="content">
+      <sui-image src="/assests/landscape.jpeg" size="large" />
       <router-view/>
+    </div>
   </div>
 </template>
 
@@ -16,7 +19,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,4 +28,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>

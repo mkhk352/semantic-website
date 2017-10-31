@@ -1,5 +1,7 @@
 <template>
-<div>
+
+  <div class="ui text container">
 this is the main page
-</div>
+    </div>
+
 </template>
