@@ -1,20 +1,28 @@
 <template>
   <div class="">
     <app-header></app-header>
-    <div class="ui center aligned raised segment" id="content">
-      <sui-image src="/assests/landscape.jpeg" size="large" />
+      <sui-image :src="img"  />
       <router-view/>
-    </div>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader';
+import AppFooter from './components/AppFooter';
+import img from './assets/landscape.jpeg';
 
 export default {
   name: 'app',
   components: {
     AppHeader,
+    AppFooter,
+  },
+
+  data() {
+    return {
+      img: img,
+    };
   },
 };
 </script>
